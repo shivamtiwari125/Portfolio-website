@@ -16,7 +16,7 @@ body{
   width: 60px;
   position: fixed;
   top: 86%;
-  right: 10%;
+  right: 3%;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 1px 2px 5px black;
@@ -27,18 +27,22 @@ body{
   width: 100%;
   
 }
-
 .header{
-  background-color: black;
-  color: white;
-  height: 8vh;
+    background-color: black;
+
+    color: white;
+    height: 8vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
   .header h2{
     font-size: 2.1rem;
     font-weight: 100;
+    margin-left: 5rem;
+  }
+  .socials{
+    margin-right: 5rem;
   }
   #insta{
     margin: 1rem;
@@ -78,7 +82,11 @@ body{
     border-radius: 100px;
     object-fit: cover;
   }
-  
+   .bgimage{
+    height: 45rem;
+    width: 100%;
+    /* object-fit: contain; */
+   }
   .profile {
     text-align: center;
     position:absolute;
@@ -171,13 +179,24 @@ body{
     border-bottom: 2px dotted rgb(105, 41, 41);
   }
   
-  
+  .onlyproject{
+    display: flex;
+    flex-direction: column;
+  }
   .first-project{
     width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  .second-project{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
     margin: 2rem 0;
   }
   .leftbox{
@@ -201,7 +220,7 @@ body{
   .leftbox img{
     width: 100%;
     height: 100%;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     transition: all 0.7s ease;
   }
   .leftbox img:hover{
@@ -234,9 +253,9 @@ body{
   .proj-button{
     color: black;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 5px black;
     padding: 0.4rem;
-    background-color:beige;
+    background-color:#9CD3D9;
     margin: 1rem;
     transition: all 0.7s ease;
   }
@@ -247,6 +266,6 @@ body{
 
   footer{
     text-align: center;
-    background-color: antiquewhite;
-    height: 8vh;
+    background-color: rgba(56, 139, 255, 0.381);
+    height: 10vh;
   }
