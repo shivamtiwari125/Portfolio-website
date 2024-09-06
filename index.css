@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 body{
+  background-color: #8582827a;
   width: 100vw;
   height: 100vw;
   overflow-x: hidden;
@@ -176,7 +177,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: 2rem 0;
   }
   .leftbox{
